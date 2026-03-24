@@ -2,12 +2,12 @@ package model;
 
 public class Topic extends StudyUnit {
 
-    public Topic(String name, double masteryLevel) {
+    public Topic(String name, int masteryLevel) {
         super(name, masteryLevel);
     }
 
     @Override
     public int calculatePriority() {
-        return (int) (100 - masteryLevel);
+        return 100 - masteryLevel;
     }
 }

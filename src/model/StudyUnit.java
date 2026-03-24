@@ -3,20 +3,20 @@ package model;
 public abstract class StudyUnit {
 
     protected String name;
-    protected double masteryLevel;
+    protected int masteryLevel;
 
-    public StudyUnit(String name, double masteryLevel) {
+    public StudyUnit(String name, int masteryLevel) {
         this.name = name;
         this.masteryLevel = masteryLevel;
     }
-
-    public abstract int calculatePriority();
 
     public String getName() {
         return name;
     }
 
-    public double getMasteryLevel() {
+    public int getMasteryLevel() {
         return masteryLevel;
     }
+
+    public abstract int calculatePriority();
 }
