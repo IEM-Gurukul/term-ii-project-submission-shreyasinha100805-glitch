@@ -72,7 +72,7 @@ public class MainApp extends JFrame {
             Topic t = new Topic(name, level);
             manager.addTask(t);
 
-            outputArea.setText("✔ " + engine.analyze(t));
+            outputArea.setText(outputArea.getText() + "✔ " + engine.analyze(t) + "\n");
 
         } catch (Exception ex) {
             outputArea.setText("❌ Invalid input");
