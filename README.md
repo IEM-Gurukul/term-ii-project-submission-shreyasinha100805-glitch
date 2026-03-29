@@ -1,10 +1,10 @@
 ## PCCCS495 – Term II Project
 
-## Project Title
+# Project Title
 
 Adaptive Study Strategy Engine
 
-## Problem Statement
+# Problem Statement
 
 Students often struggle to manage multiple subjects and topics while preparing for examinations. Traditional study planners require manual prioritization and fail to adapt dynamically when performance changes or deadlines approach. This results in inefficient study patterns where weaker areas are often ignored and time is not optimally utilized.
 
@@ -12,7 +12,7 @@ The Adaptive Study Strategy Engine addresses this problem by dynamically adjusti
 
 This project demonstrates structured object-oriented design using abstraction, inheritance, and polymorphism while ensuring modular and maintainable architecture.
 
-## Target Users
+# Target Users
 College students preparing for semester exams
 School students managing multiple subjects
 Competitive exam aspirants
@@ -28,7 +28,7 @@ Swimlane-based system flow visualization (NEW)
 Displays interaction between system components
 Shows flow: User → MainApp → StrategyEngine → ScheduleManager
 Helps understand internal workflow of the system
-## OOP Concepts Used
+# OOP Concepts Used
 # Abstraction
 Implemented using an abstract StudyUnit class to define common behavior.
 # Inheritance
@@ -49,7 +49,8 @@ StrategyEngine analyzes performance
 ScheduleManager organizes tasks
 Results are displayed to the user
 This improves clarity of system interaction and responsibility distribution.
-## Proposed Architecture
+
+# Proposed Architecture
 
 The system follows a modular object-oriented architecture:
 
