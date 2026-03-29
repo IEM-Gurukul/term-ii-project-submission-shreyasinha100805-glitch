@@ -1,10 +1,10 @@
-## PCCCS495 – Term II Project
+# PCCCS495 – Term II Project
 
-# Project Title
+## Project Title
 
 Adaptive Study Strategy Engine
 
-# Problem Statement
+## Problem Statement
 
 Students often struggle to manage multiple subjects and topics while preparing for examinations. Traditional study planners require manual prioritization and fail to adapt dynamically when performance changes or deadlines approach. This results in inefficient study patterns where weaker areas are often ignored and time is not optimally utilized.
 
@@ -12,7 +12,7 @@ The Adaptive Study Strategy Engine addresses this problem by dynamically adjusti
 
 This project demonstrates structured object-oriented design using abstraction, inheritance, and polymorphism while ensuring modular and maintainable architecture.
 
-# Target Users
+## Target Users
 College students preparing for semester exams
 School students managing multiple subjects
 Competitive exam aspirants
