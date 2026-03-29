@@ -81,8 +81,10 @@ USER → MAIN APP → STRATEGY ENGINE → SCHEDULE MANAGER → MAIN APP → USER
 
 ## How to Run
 Step 1: Open terminal in project folder
+
 Step 2: Compile
 javac -d . src/model/*.java src/engine/*.java src/ui/*.java
+
 Step 3: Run
 java ui.MainApp
 
