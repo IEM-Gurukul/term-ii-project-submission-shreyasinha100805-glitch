@@ -28,20 +28,20 @@ Swimlane-based system flow visualization (NEW)
 Displays interaction between system components
 Shows flow: User → MainApp → StrategyEngine → ScheduleManager
 Helps understand internal workflow of the system
-# OOP Concepts Used
-# Abstraction
+## OOP Concepts Used
+### Abstraction
 Implemented using an abstract StudyUnit class to define common behavior.
-# Inheritance
+### Inheritance
 Topic class extends StudyUnit to reuse functionality.
-# Polymorphism
+### Polymorphism
 Method calculatePriority() provides different behavior for study units.
-# Encapsulation
+### ncapsulation
 Data members are protected and accessed via getter methods.
-# Exception Handling
+### Exception Handling
 Handles invalid inputs such as empty topic names and incorrect mastery values.
-# Collections Framework
+### Collections Framework
 Uses PriorityQueue to dynamically manage study scheduling.
-# Swimlane Modeling (NEW ADDITION)
+### Swimlane Modeling (NEW ADDITION)
 The system includes a swimlane-based representation to visualize workflow:
 User provides input
 MainApp processes data
@@ -50,7 +50,7 @@ ScheduleManager organizes tasks
 Results are displayed to the user
 This improves clarity of system interaction and responsibility distribution.
 
-# Proposed Architecture
+##  Proposed Architecture
 
 The system follows a modular object-oriented architecture:
 
@@ -76,17 +76,17 @@ Output is returned to the user
 
 This ensures clear separation of concerns, scalability, and maintainability.
 
-# Swimlane Flow (Conceptual)
+## Swimlane Flow (Conceptual)
 USER → MAIN APP → STRATEGY ENGINE → SCHEDULE MANAGER → MAIN APP → USER
 
-# How to Run
+## How to Run
 Step 1: Open terminal in project folder
 Step 2: Compile
 javac -d . src/model/*.java src/engine/*.java src/ui/*.java
 Step 3: Run
 java ui.MainApp
 
-# UML Diagram
+## UML Diagram
 
 The UML diagram represents:
 
@@ -97,7 +97,7 @@ StrategyEngine → StudyUnit
 ScheduleManager → StudyUnit
 MainApp → StrategyEngine & ScheduleManager
 
- # Git Discipline
+ ## Git Discipline
 
 This project follows strong Git discipline with 10+ meaningful commits.
 
@@ -110,12 +110,12 @@ GUI integration
 Exception handling
 Final testing
 
-# Future Enhancements
+## Future Enhancements
 Deadline-based prioritization
 Data persistence (file/database)
 Android application version
 Performance analytics dashboard
 
-# Conclusion
+## Conclusion
 
 The Adaptive Study Strategy Engine provides a smart and efficient approach to managing study tasks by dynamically prioritizing topics. It demonstrates strong object-oriented design principles along with system workflow visualization through swimlane modeling, making it both practical and scalable.
