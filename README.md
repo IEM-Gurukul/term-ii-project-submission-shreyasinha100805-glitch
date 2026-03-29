@@ -16,7 +16,7 @@ This project demonstrates structured object-oriented design using abstraction, i
 College students preparing for semester exams
 School students managing multiple subjects
 Competitive exam aspirants
-⚙️ Core Features
+## core Features
 Add and manage study topics
 Record mastery level (0–100) for each topic
 Dynamic priority calculation based on performance
